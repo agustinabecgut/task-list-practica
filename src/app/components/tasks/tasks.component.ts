@@ -9,7 +9,7 @@ import { Task } from 'src/app/Task';
 })
 export class TasksComponent implements OnInit {
   tasks: Task[] = TASKS;
-
+  
   constructor() { }
 
   ngOnInit(): void {
